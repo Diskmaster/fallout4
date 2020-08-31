@@ -5803,14 +5803,10 @@ plugins:
       - 'Farm_DLCNukaWorld.esp'
       - 'Farm_DLCworkshop03.esp'
   - name: 'PrevisPackBlock0.esp'
-    url:
-      - 'https://www.nexusmods.com/fallout4/mods/46403'
-      name: 'Previs Repair Pack - Interiors'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/46403' ]
     inc: [ 'BTInt_Optimization.esp' ]
   - name: 'PrevisPackBlock1.esp'
-      url:
-      - 'https://www.nexusmods.com/fallout4/mods/46403'
-      name: 'Previs Repair Pack - Exteriors'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/46403' ]
     inc: 
     - 'BTInt_Optimization.esp'
     - 'BostonFPSFixAIO.esp' 
