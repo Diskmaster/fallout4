@@ -5802,3 +5802,10 @@ plugins:
       - 'Farm_DLCCoast.esp'
       - 'Farm_DLCNukaWorld.esp'
       - 'Farm_DLCworkshop03.esp'
+  - name: 'PrevisPack.*\.esp'
+    url: [ 'https://www.nexusmods.com/fallout4/mods/46403' ]
+  - name: 'PrevisPackBlock0.esp' # Interiors
+    inc: [ 'BTInt_Optimization.esp' ]
+  - name: 'PrevisPackBlock1.esp' # Exteriors Part 1
+    inc: [ 'BTInt_Optimization.esp', 'BostonFPSFix.*\.esp', 'Fo4FI_FPS_fix.esp' ]
+    # TODO: Figure out layout and incompatibilites with respect to masterlist. - Diskmaster
