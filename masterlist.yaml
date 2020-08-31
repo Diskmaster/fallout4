@@ -5802,17 +5802,21 @@ plugins:
       - 'Farm_DLCCoast.esp'
       - 'Farm_DLCNukaWorld.esp'
       - 'Farm_DLCworkshop03.esp'
-  - name: 'PrevisPack.*\.esp'
-    url: [ 'https://www.nexusmods.com/fallout4/mods/46403' ]
-  - name: 'PrevisPackBlock0.esp' # Interiors
+  - name: 'PrevisPackBlock0.esp'
+    url:
+      - 'https://www.nexusmods.com/fallout4/mods/46403'
+      - name: 'Previs Repair Pack - Interiors'
     inc: [ 'BTInt_Optimization.esp' ]
-  - name: 'PrevisPackBlock1.esp' # Exteriors Part 1
+  - name: 'PrevisPackBlock1.esp'
+      url:
+      - 'https://www.nexusmods.com/fallout4/mods/46403'
+      - name: 'Previs Repair Pack - Exteriors'
     inc: 
     - 'BTInt_Optimization.esp'
     - name: 'BostonFPSFixAIO.esp' 
-      display: '"BostonFPSFixAIO.esp has exterior records that conflict with PrevisPackBlock1.esp."'
+      msg: '"BostonFPSFixAIO.esp has exterior records that conflict with PrevisPackBlock1.esp."'
     - name: 'Fo4FI_FPS_fix.esp'
-      display: '"Fo4FI_FPS_fix.esp has exterior records that conflict with PrevisPackBlock1.esp."'
+      msg: '"Fo4FI_FPS_fix.esp has exterior records that conflict with PrevisPackBlock1.esp."'
     - name: 'PaladinBaileyRedRocket.esp'
-      display: '"PaladinBaileyRedRocket.esp has exterior records that conflict with PrevisPackBlock1.esp."'
+      msg: '"PaladinBaileyRedRocket.esp has exterior records that conflict with PrevisPackBlock1.esp."'
     # TODO: Figure out layout and incompatibilites with respect to masterlist. - Diskmaster
