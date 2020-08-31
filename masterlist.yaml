@@ -5809,6 +5809,6 @@ plugins:
   - name: 'PrevisPackBlock1.esp' # Exteriors Part 1
     inc: 
     - 'BTInt_Optimization.esp'
-    - 'BostonFPSFix.*\.esp' 
+    - 'BostonFPSFix.esp' 
     - 'Fo4FI_FPS_fix.esp'
     # TODO: Figure out layout and incompatibilites with respect to masterlist. - Diskmaster
