@@ -5805,12 +5805,12 @@ plugins:
   - name: 'PrevisPackBlock0.esp'
     url:
       - 'https://www.nexusmods.com/fallout4/mods/46403'
-      - name: 'Previs Repair Pack - Interiors'
+      name: 'Previs Repair Pack - Interiors'
     inc: [ 'BTInt_Optimization.esp' ]
   - name: 'PrevisPackBlock1.esp'
       url:
       - 'https://www.nexusmods.com/fallout4/mods/46403'
-      - name: 'Previs Repair Pack - Exteriors'
+      name: 'Previs Repair Pack - Exteriors'
     inc: 
     - 'BTInt_Optimization.esp'
     - 'BostonFPSFixAIO.esp' 
