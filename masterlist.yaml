@@ -5809,6 +5809,10 @@ plugins:
   - name: 'PrevisPackBlock1.esp' # Exteriors Part 1
     inc: 
     - 'BTInt_Optimization.esp'
-    - 'BostonFPSFix.esp' 
-    - 'Fo4FI_FPS_fix.esp'
+    - name: 'BostonFPSFixAIO.esp' 
+      display: '"BostonFPSFixAIO.esp has exterior records that conflict with PrevisPackBlock1.esp."'
+    - name: 'Fo4FI_FPS_fix.esp'
+      display: '"Fo4FI_FPS_fix.esp has exterior records that conflict with PrevisPackBlock1.esp."'
+    - name: 'PaladinBaileyRedRocket.esp'
+      display: '"PaladinBaileyRedRocket.esp has exterior records that conflict with PrevisPackBlock1.esp."'
     # TODO: Figure out layout and incompatibilites with respect to masterlist. - Diskmaster
