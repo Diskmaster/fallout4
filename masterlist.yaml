@@ -5798,3 +5798,10 @@ plugins:
       - 'Farm_DLCCoast.esp'
       - 'Farm_DLCNukaWorld.esp'
       - 'Farm_DLCworkshop03.esp'
+# Actually verified this myself and submitted a bug report on this mod about it. - Diskmaster  
+  - name: 'SKKFastStart.esp'
+    dirty:
+      - <<: *quickClean
+        crc: 0xAC686A60
+        util: '[FO4Edit v4.0.3](https://www.nexusmods.com/fallout4/mods/2737)'
+        itm: 6
